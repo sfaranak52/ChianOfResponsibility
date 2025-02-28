@@ -1,0 +1,76 @@
+# Ignore build and output directories
+bin/
+obj/
+[Bb]uild/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio temporary files
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Ignore NuGet packages and restore files
+packages/
+[Nn]u[Gg]et.[Ll]ocal.[Pp]ackages
+*.nupkg
+*.nuspec
+
+# Ignore ReSharper files
+_ReSharper.*
+*.resharper
+
+# Ignore Rider files
+.idea/
+*.idea
+
+# Ignore Azure Functions local settings
+local.settings.json
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore miscellaneous files
+*.log
+*.cache
+*.pidb
+*.pdb
+*.ilk
+*.msi
+*.msix
+*.msm
+*.msp
+*.tmp
+*.temp
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Rider/IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore VS Code files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Docker files
+docker-compose.*
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignore local development files
+.env
+*.env
